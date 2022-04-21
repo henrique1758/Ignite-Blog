@@ -1,1 +1,48 @@
-// TODO
+.posts {
+  display: grid;
+  gap: 3rem;
+}
+
+.post {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--heading);
+    line-height: 2.125rem;
+  }
+
+  h4 {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--body);
+    line-height: 1.375rem;
+  }
+}
+
+.postInfo {
+  span {
+    display: inline-block;
+    margin-top: 1.5625rem;
+    color: var(--info);
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+
+    svg {
+      margin-right: .5rem;
+    }
+  }
+
+  span + span {
+    margin-left: 1.5rem;
+  }
+}
+
+.button {
+  margin-top: 4rem;
+  color: var(--highlight);
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
